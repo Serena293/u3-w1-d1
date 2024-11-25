@@ -21,7 +21,7 @@ function App() {
         >
           Learn React
         </a> */}
-        <h1>Testo di Esempio</h1>
+        <h1>Esempio</h1>
       
         {<ImageComponent src="https://placecats.com/300/200"/>}
         {<ButtonComponent buttonText="Pulsante 1" />}
