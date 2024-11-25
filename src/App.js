@@ -2,6 +2,8 @@
 // import './App.css';
 import "./Components/ButtonComponent";
 import ButtonComponent from "./Components/ButtonComponent";
+import "./Components/ImageComponent"
+import ImageComponent from "./Components/ImageComponent"
 
 function App() {
   return (
@@ -20,7 +22,10 @@ function App() {
           Learn React
         </a> */}
         <h1>Testo di Esempio</h1>
+      
+        {<ImageComponent src="https://placecats.com/300/200"/>}
         {<ButtonComponent buttonText="Pulsante 1" />}
+        {<ImageComponent src="https://placecats.com/200/200"/>}
         {<ButtonComponent buttonText="Pulsante 2" />}
       </header>
     </div>

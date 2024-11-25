@@ -1,3 +1,5 @@
 const ImageComponent = (props) => {
-  return <img></img>;
+  return <img src={props.src} alt="placeholder"></img>;
 };
+
+export default ImageComponent
