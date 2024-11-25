@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 // import './App.css';
+import "./Components/ButtonComponent";
+import ButtonComponent from "./Components/ButtonComponent";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a> */}
         <h1>Testo di Esempio</h1>
+        {<ButtonComponent buttonText="Pulsante 1" />}
+        {<ButtonComponent buttonText="Pulsante 2" />}
       </header>
     </div>
   );
